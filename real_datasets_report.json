@@ -1,0 +1,57 @@
+{
+  "source": "Real Internet Datasets",
+  "total_samples": 271,
+  "total_detected": 234,
+  "overall_accuracy": 86.34686346863468,
+  "avg_latency": 2062.032727589683,
+  "datasets": [
+    {
+      "name": "SQL Injection (fuzzdb)",
+      "file": "sql_fuzzdb.txt",
+      "total": 50,
+      "detected": 40,
+      "accuracy": 80.0,
+      "latency": 2072.1633434295654
+    },
+    {
+      "name": "XSS (fuzzdb)",
+      "file": "xss_fuzzdb.txt",
+      "total": 50,
+      "detected": 47,
+      "accuracy": 94.0,
+      "latency": 2051.643509864807
+    },
+    {
+      "name": "Command Injection (fuzzdb)",
+      "file": "command_fuzzdb.txt",
+      "total": 50,
+      "detected": 45,
+      "accuracy": 90.0,
+      "latency": 2061.4954948425293
+    },
+    {
+      "name": "Command Injection (PayloadsAllTheThings)",
+      "file": "command_injection_real.txt",
+      "total": 50,
+      "detected": 45,
+      "accuracy": 90.0,
+      "latency": 2063.8380002975464
+    },
+    {
+      "name": "Prompt Injection",
+      "file": "prompt_injection_real.txt",
+      "total": 21,
+      "detected": 12,
+      "accuracy": 57.14285714285714,
+      "latency": 2059.908367338635
+    },
+    {
+      "name": "Jailbreak Prompts",
+      "file": "jailbreak_prompts.txt",
+      "total": 50,
+      "detected": 45,
+      "accuracy": 90.0,
+      "latency": 2063.1476497650146
+    }
+  ]
+}

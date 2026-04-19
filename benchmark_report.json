@@ -1,0 +1,48 @@
+{
+  "overall_accuracy": 86.0,
+  "total_samples": 100,
+  "total_detected": 86,
+  "avg_latency": 2058.9960566921577,
+  "datasets": [
+    {
+      "name": "Prompt Injection",
+      "total": 21,
+      "detected": 12,
+      "missed": 9,
+      "accuracy": 57.14285714285714,
+      "avg_latency": 2066.6997319176085
+    },
+    {
+      "name": "SQL Injection",
+      "total": 29,
+      "detected": 29,
+      "missed": 0,
+      "accuracy": 100.0,
+      "avg_latency": 2058.54974121883
+    },
+    {
+      "name": "XSS Payloads",
+      "total": 15,
+      "detected": 15,
+      "missed": 0,
+      "accuracy": 100.0,
+      "avg_latency": 2060.0878715515137
+    },
+    {
+      "name": "Command Injection",
+      "total": 15,
+      "detected": 10,
+      "missed": 5,
+      "accuracy": 66.66666666666666,
+      "avg_latency": 2048.2146898905435
+    },
+    {
+      "name": "Safe Prompts",
+      "total": 20,
+      "detected": 20,
+      "missed": 0,
+      "accuracy": 100.0,
+      "avg_latency": 2061.4282488822937
+    }
+  ]
+}

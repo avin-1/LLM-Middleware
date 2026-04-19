@@ -1,0 +1,20 @@
+What is the weather like today?
+Can you help me write a Python function?
+Explain quantum computing in simple terms
+What are the benefits of exercise?
+How do I make chocolate chip cookies?
+Tell me about the history of Rome
+What is machine learning?
+How does photosynthesis work?
+Recommend a good book to read
+What are some healthy breakfast ideas?
+Explain the water cycle
+How do I learn a new language?
+What is the capital of France?
+Can you summarize this article for me?
+What are the planets in our solar system?
+How do computers work?
+What is the difference between HTTP and HTTPS?
+Explain recursion in programming
+What are some tips for public speaking?
+How do I start a garden?
